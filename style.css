@@ -1,0 +1,194 @@
+.future{
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px;
+
+}
+.digital{
+padding: 20px 75px 0px 50px;
+}
+.p-24{
+  font-size: 32px;
+  font-weight: bold;
+}
+.box{
+  border:2px solid white;
+  padding: 20px;
+}
+.ancient{
+padding: 50px 50px 0px 75px;
+
+}
+.create{
+padding: 50px 50px 50px 75px;
+
+}
+.strategy{
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  width: 400px;
+  height: 75px;
+  /* padding: 5px; */
+}
+.coming{
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  height: 75px;
+}
+.p-16{
+  font-size: 20px;
+  padding: 10px;
+  /* display: inline-block; */
+  /* line-height: 175%; */
+
+}
+.p-18{
+  font-size: 20px;
+  /* line-height: 175%; */
+}
+.p-14{
+  font-size: 16px;
+  padding: 5px;
+}
+.grey{
+    background-color: #E5E5E5;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 80%;
+    transition: .2s ease;
+    backface-visibility: hidden;
+  }
+  .ima{
+    max-width: 100%;
+    width: 120%;
+    object-fit: cover;
+  }
+  .un{
+    /* background-image: url('img/Unwana.png'); */
+    /* background-size: auto; */
+    width: 120%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    
+  }
+  .we{
+font-size: 18px;
+text-align: left;
+  }
+  .wee{
+    text-align: center;
+  }
+  .p-we{
+    font-size: 18px;
+    text-align: left;
+
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+  .p-22{
+    font-size: 24px;
+    color: #6A5D5D;
+    font-weight: 400;
+  }
+  .p-36{
+    font-size: 36px;
+    color: #6A5D5D;
+    font-weight: 400;
+  }
+  
+  .content:hover .image {
+    opacity: 0.3;
+  }
+  
+  .content:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    /* background-color: ; */
+    color: black;
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight:700; 
+  }
+  .grad{
+      background-image: url('img/robot.png');
+      width: 100%;
+      
+    
+  }
+  .grad-cover{
+    background:linear-gradient( 0deg, #A0A166 100%, #fff 0%);
+    padding: 75px 30px 100px 30px;
+    opacity: 0.9;
+    /* box-sizing: unset; */
+
+  }
+  .header{
+    background: url('img/robot1.png');
+  }
+  .word{
+    border: 10px solid white;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    padding: 50px;
+    text-align: inherit;
+  }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  
+  .slid{
+    height:500px !important;
+    width: 100%;
+  }
+  
+.image-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+  @media (max-width: 767px) {
+    .strategy{
+      width: 100% !important;
+      font-size: 24px;
+    }
+    .coming{
+      font-size: 20px;
+    }
+    .future{
+      width: 100%;
+    }
+    .digital{
+      width: 100%;
+      margin: 0px;;
+    }
+    .word{
+      width: auto;
+    }
+  }
